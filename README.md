@@ -1,17 +1,19 @@
-# Calculadora Web Full Stack
+# 🧮 Calculadora Full Stack (Python & JavaScript)
 
-Este projeto evoluiu de um simples script Python para uma aplicação web completa.
+Projeto desenvolvido para estudar a integração entre um backend em Python (Flask) e um frontend dinâmico com JavaScript puro.
 
-## Descrição
+## 🚀 Tecnologias
+* **Backend:** Python com Flask (API REST)
+* **Frontend:** HTML5, CSS3 e JavaScript (Fetch API)
+* **Ambiente:** WSL2 (Ubuntu)
 
-A aplicação consiste em uma calculadora que realiza as operações de soma, subtração, multiplicação e divisão.
+## ⚙️ Como funciona
+O backend processa os cálculos através de rotas decoradas no Flask, enquanto o frontend consome essa API de forma assíncrona, garantindo que a página não precise ser recarregada.
 
-*   **Backend:** Flask (Python)
-*   **Frontend:** HTML/JavaScript
+## 🛠️ Como rodar o projeto
+1. Instale as dependências: `pip install flask`
+2. Rode o servidor: `python app.py`
+3. Acesse no navegador: `http://localhost:5000`
 
-## Como rodar
-
-1.  Certifique-se de ter o Python 3 instalado.
-2.  Instale as dependências do Flask: `pip install flask flask-cors`
-3.  Execute o servidor Flask: `python servidor.py`
-4.  Abra o arquivo `index.html` em seu navegador.
+---
+*Projeto em constante evolução para estudos de Full Stack.*
